@@ -1,0 +1,309 @@
+{
+  "new_analytic_inputs": 6,
+  "completed_classifications_and_audits": 6,
+  "initial_combined_timeouts": 2,
+  "completed_separate_recovery_audits": 2,
+  "fresh_public_cli_zero_regression": {
+    "status": "nonnegative_with_flat_direction",
+    "verified": true
+  },
+  "cases": {
+    "rotated_singular_flat": {
+      "expected": "nonnegative_with_flat_direction",
+      "exact_reference_minimum": "0",
+      "actual_status": "nonnegative_with_flat_direction",
+      "complete_audit": true,
+      "original_eta": "1/64",
+      "initial_attempt": {
+        "input": {
+          "a": [
+            14,
+            "2/5",
+            16
+          ],
+          "b": [
+            "-4/5",
+            "-6/5",
+            -10
+          ],
+          "c": [
+            "5/2",
+            13,
+            15
+          ],
+          "d_real": [
+            "-3/2",
+            -5,
+            12
+          ],
+          "d_imag": [
+            -2,
+            12,
+            -9
+          ]
+        },
+        "expected": "nonnegative_with_flat_direction",
+        "exact_minimum": "0",
+        "reference": "Three positive radial squares plus three rotated real-overlap squares; rational rank-two zero fields.",
+        "passed": true,
+        "status": "nonnegative_with_flat_direction",
+        "classification_seconds": 72.47882206300002,
+        "total_seconds": 101.40150105799998,
+        "original_eta": "1/64",
+        "complete_audit": true
+      },
+      "recovery": null,
+      "decision": "validation/final/cases/rotated_singular_flat_decision.json",
+      "audit": "validation/final/cases/rotated_singular_flat_audit.json"
+    },
+    "rotated_singular_positive": {
+      "expected": "strictly_positive",
+      "exact_reference_minimum": "1/10000",
+      "actual_status": "strictly_positive",
+      "complete_audit": true,
+      "original_eta": "80001/10485760000",
+      "initial_attempt": {
+        "input": {
+          "a": [
+            "70001/5000",
+            "2001/5000",
+            "80001/5000"
+          ],
+          "b": [
+            "-3999/5000",
+            "-5999/5000",
+            "-49999/5000"
+          ],
+          "c": [
+            "5/2",
+            "13",
+            "15"
+          ],
+          "d_real": [
+            "-3/2",
+            "-5",
+            "12"
+          ],
+          "d_imag": [
+            "-2",
+            "12",
+            "-9"
+          ]
+        },
+        "expected": "strictly_positive",
+        "exact_minimum": "1/10000",
+        "reference": "Exact constant shift of a manifest sum of squares with an attaining zero.",
+        "passed": false,
+        "error": "Resource timeout (300 s); no verdict claimed",
+        "total_seconds": 300.07604252100003
+      },
+      "recovery": {
+        "case": "rotated_singular_positive",
+        "verified": true,
+        "quartic_status": "strictly_positive",
+        "original_eta": "80001/10485760000",
+        "audit_seconds": 86.29884346000006,
+        "scope": "Separate complete audit of a decision emitted before the combined 300-second budget expired; earlier timeout is preserved."
+      },
+      "decision": "validation/final/cases/rotated_singular_positive_decision.json",
+      "audit": "validation/final/cases/rotated_singular_positive_audit.json"
+    },
+    "rotated_singular_negative": {
+      "expected": "unstable",
+      "exact_reference_minimum": "-1/10000",
+      "actual_status": "unstable",
+      "complete_audit": true,
+      "original_eta": "79999/10485760000",
+      "initial_attempt": {
+        "input": {
+          "a": [
+            "69999/5000",
+            "1999/5000",
+            "79999/5000"
+          ],
+          "b": [
+            "-4001/5000",
+            "-6001/5000",
+            "-50001/5000"
+          ],
+          "c": [
+            "5/2",
+            "13",
+            "15"
+          ],
+          "d_real": [
+            "-3/2",
+            "-5",
+            "12"
+          ],
+          "d_imag": [
+            "-2",
+            "12",
+            "-9"
+          ]
+        },
+        "expected": "unstable",
+        "exact_minimum": "-1/10000",
+        "reference": "Exact constant shift; the same rational fields attain the exact negative minimum.",
+        "passed": false,
+        "error": "Resource timeout (300 s); no verdict claimed",
+        "total_seconds": 300.131260388
+      },
+      "recovery": {
+        "case": "rotated_singular_negative",
+        "verified": true,
+        "quartic_status": "unstable",
+        "original_eta": "79999/10485760000",
+        "audit_seconds": 68.1911947970001,
+        "scope": "Separate complete audit of a decision emitted before the combined 300-second budget expired; earlier timeout is preserved."
+      },
+      "decision": "validation/final/cases/rotated_singular_negative_decision.json",
+      "audit": "validation/final/cases/rotated_singular_negative_audit.json"
+    },
+    "radial_nondiagonal_positive": {
+      "expected": "strictly_positive",
+      "exact_reference_minimum": "89/96",
+      "actual_status": "strictly_positive",
+      "complete_audit": true,
+      "original_eta": "1/8",
+      "initial_attempt": {
+        "input": {
+          "a": [
+            4,
+            6,
+            8
+          ],
+          "b": [
+            1,
+            0,
+            -1
+          ],
+          "c": [
+            0,
+            0,
+            0
+          ],
+          "d_real": [
+            0,
+            0,
+            0
+          ],
+          "d_imag": [
+            0,
+            0,
+            0
+          ]
+        },
+        "expected": "strictly_positive",
+        "exact_minimum": "89/96",
+        "reference": "Positive-definite radial matrix, positive stationary radii (23/48,11/48,7/24). Angular variables are unrestricted.",
+        "passed": true,
+        "status": "strictly_positive",
+        "classification_seconds": 10.684829542999978,
+        "total_seconds": 15.66373896899995,
+        "original_eta": "1/8",
+        "complete_audit": true
+      },
+      "recovery": null,
+      "decision": "validation/final/cases/radial_nondiagonal_positive_decision.json",
+      "audit": "validation/final/cases/radial_nondiagonal_positive_audit.json"
+    },
+    "radial_nondiagonal_flat": {
+      "expected": "nonnegative_with_flat_direction",
+      "exact_reference_minimum": "0",
+      "actual_status": "nonnegative_with_flat_direction",
+      "complete_audit": true,
+      "original_eta": "295/12288",
+      "initial_attempt": {
+        "input": {
+          "a": [
+            "103/48",
+            "199/48",
+            "295/48"
+          ],
+          "b": [
+            "-41/48",
+            "-89/48",
+            "-137/48"
+          ],
+          "c": [
+            "0",
+            "0",
+            "0"
+          ],
+          "d_real": [
+            "0",
+            "0",
+            "0"
+          ],
+          "d_imag": [
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "expected": "nonnegative_with_flat_direction",
+        "exact_minimum": "0",
+        "reference": "Subtract the exact radial minimum times trace squared; a continuum of angular minima remains.",
+        "passed": true,
+        "status": "nonnegative_with_flat_direction",
+        "classification_seconds": 10.423145764000083,
+        "total_seconds": 15.433975074000045,
+        "original_eta": "295/12288",
+        "complete_audit": true
+      },
+      "recovery": null,
+      "decision": "validation/final/cases/radial_nondiagonal_flat_decision.json",
+      "audit": "validation/final/cases/radial_nondiagonal_flat_audit.json"
+    },
+    "radial_nondiagonal_negative": {
+      "expected": "unstable",
+      "exact_reference_minimum": "-1/192",
+      "actual_status": "unstable",
+      "complete_audit": true,
+      "original_eta": "589/393216",
+      "initial_attempt": {
+        "input": {
+          "a": [
+            "205/96",
+            "397/96",
+            "589/96"
+          ],
+          "b": [
+            "-83/96",
+            "-179/96",
+            "-275/96"
+          ],
+          "c": [
+            "0",
+            "0",
+            "0"
+          ],
+          "d_real": [
+            "0",
+            "0",
+            "0"
+          ],
+          "d_imag": [
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "expected": "unstable",
+        "exact_minimum": "-1/192",
+        "reference": "Constant shift below the exact radial minimum.",
+        "passed": true,
+        "status": "unstable",
+        "classification_seconds": 10.898495185999991,
+        "total_seconds": 14.501074045999985,
+        "original_eta": "589/393216",
+        "complete_audit": true
+      },
+      "recovery": null,
+      "decision": "validation/final/cases/radial_nondiagonal_negative_decision.json",
+      "audit": "validation/final/cases/radial_nondiagonal_negative_audit.json"
+    }
+  },
+  "scope": "Six new inputs; targeted checks, not a statistical accuracy estimate. The zero-input CLI run is a regression, not a seventh new physical model. Initial timeouts are preserved and were not treated as physical verdicts."
+}

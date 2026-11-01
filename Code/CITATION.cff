@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+title: "Exact quartic-stability classifier for the complex Weinberg three-Higgs-doublet model"
+type: software
+authors:
+  - family-names: "Abu-Ajamieh"
+    given-names: "Fayez"
+version: "1.0.0"
+date-released: 2026-11-01
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Abu-Ajamieh"
+      given-names: "Fayez"
+  title: "A finite exact criterion for quartic stability in the complex Weinberg three-Higgs-doublet model"
+  year: 2026

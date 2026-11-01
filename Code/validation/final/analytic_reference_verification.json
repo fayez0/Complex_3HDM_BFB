@@ -1,0 +1,62 @@
+{
+  "verified": true,
+  "reference_cases": 6,
+  "method": "Exact expansion of independently chosen positive-square identities, an explicit physical zero, and Sylvester principal-minor test; no stationary solver or resultant imported.",
+  "rotated_singular": {
+    "sum_of_squares_identity": true,
+    "X_real": [
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "X_imag": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "trace_gram": "7",
+    "rank_gram": 2,
+    "cycle_product": "306 - 759*I/2",
+    "deltas": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "radial": {
+    "leading_principal_minors": [
+      "4",
+      "23",
+      "178"
+    ],
+    "minimizing_radii": [
+      "23/48",
+      "11/48",
+      "7/24"
+    ],
+    "normalized_minimum": "89/96",
+    "lower_bound_identity_verified": true
+  },
+  "reference_minima": {
+    "rotated_singular_flat": "0",
+    "rotated_singular_positive": "1/10000",
+    "rotated_singular_negative": "-1/10000",
+    "radial_nondiagonal_positive": "89/96",
+    "radial_nondiagonal_flat": "0",
+    "radial_nondiagonal_negative": "-1/192"
+  }
+}

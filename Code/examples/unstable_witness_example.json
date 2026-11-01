@@ -1,0 +1,76 @@
+{
+  "couplings": {
+    "a": [
+      "29/10",
+      "39/10",
+      "49/10"
+    ],
+    "b": [
+      "-21/10",
+      "-21/10",
+      "-21/10"
+    ],
+    "c": [
+      "2",
+      "3",
+      "4"
+    ],
+    "d_real": [
+      "1",
+      "2",
+      "-1"
+    ],
+    "d_imag": [
+      "1",
+      "-1",
+      "2"
+    ]
+  },
+  "fields_real": [
+    [
+      "0",
+      "36821/65536",
+      "969/8192"
+    ],
+    [
+      "10609/16384",
+      "0",
+      "0"
+    ]
+  ],
+  "fields_imag": [
+    [
+      "0",
+      "0",
+      "-32837/65536"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "quartic_value": "-65333774160153379/36893488147419103232",
+  "field_norm": "2147481105/2147483648",
+  "normalized_value": "-65333774160153379/36893400770656168200",
+  "componentwise_robustness_radius": "65333774160153379/49191201027541557600",
+  "source": "Physical candidate of positive deformation, rounded to rational ORIGINAL Higgs fields",
+  "rounding_bits": 16,
+  "attempts": [
+    {
+      "bits": 16,
+      "kind": "sparse",
+      "negative": true
+    }
+  ],
+  "standalone_verification": {
+    "verified": true,
+    "original_potential_unstable": true,
+    "quartic_value": "-65333774160153379/36893488147419103232",
+    "field_norm": "2147481105/2147483648",
+    "normalized_value": "-65333774160153379/36893400770656168200",
+    "componentwise_robustness_radius": "65333774160153379/49191201027541557600",
+    "dependencies": "Python standard library only",
+    "interpretation": "Negative feasible value, not a claim of the exact minimum; robustness uses strict componentwise radius."
+  }
+}

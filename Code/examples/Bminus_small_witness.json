@@ -1,0 +1,91 @@
+{
+  "couplings": {
+    "a": [
+      "29/10",
+      "39/10",
+      "49/10"
+    ],
+    "b": [
+      "-21/10",
+      "-21/10",
+      "-21/10"
+    ],
+    "c": [
+      "2",
+      "3",
+      "4"
+    ],
+    "d_real": [
+      "1",
+      "2",
+      "-1"
+    ],
+    "d_imag": [
+      "1",
+      "-1",
+      "2"
+    ]
+  },
+  "fields_real": [
+    [
+      "0",
+      "9/16",
+      "1/8"
+    ],
+    [
+      "5/8",
+      "0",
+      "0"
+    ]
+  ],
+  "fields_imag": [
+    [
+      "0",
+      "0",
+      "-1/2"
+    ],
+    [
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "quartic_value": "-441/1310720",
+  "field_norm": "249/256",
+  "normalized_value": "-49/137780",
+  "componentwise_robustness_radius": "147/551120",
+  "source": "Further exact dyadic rounding; feasible witness, not an exact minimum",
+  "rounding_bits": 4,
+  "attempts": [
+    {
+      "bits": 1,
+      "value": "11/320",
+      "negative": false
+    },
+    {
+      "bits": 2,
+      "value": "381/5120",
+      "negative": false
+    },
+    {
+      "bits": 3,
+      "value": "89/20480",
+      "negative": false
+    },
+    {
+      "bits": 4,
+      "value": "-441/1310720",
+      "negative": true
+    }
+  ],
+  "standalone_verification": {
+    "verified": true,
+    "original_potential_unstable": true,
+    "quartic_value": "-441/1310720",
+    "field_norm": "249/256",
+    "normalized_value": "-49/137780",
+    "componentwise_robustness_radius": "147/551120",
+    "dependencies": "Python standard library only",
+    "interpretation": "Negative feasible value, not a claim of the exact minimum; robustness uses strict componentwise radius."
+  }
+}

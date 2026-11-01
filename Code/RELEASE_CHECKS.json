@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-01",
+  "package": "Weinberg3HDM_BFB_GitHub",
+  "version": "1.0.0",
+  "checks": {
+    "fast_unittest_suite": {"passed": 17, "failed": 0},
+    "analytic_reference_identity_cases": {"passed": 6, "failed": 0},
+    "end_to_end_flat_classify": "nonnegative_with_flat_direction",
+    "end_to_end_flat_complete_audit": true,
+    "python_compileall": true,
+    "public_solver_numpy_or_scipy_imports": 0
+  },
+  "note": "These are reproducibility checks, not an independent formal proof of the universal completeness theorem."
+}

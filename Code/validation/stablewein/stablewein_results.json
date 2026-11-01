@@ -1,0 +1,164 @@
+{
+  "kernel_version": "15.0.1 for Linux x86 (64-bit) (July 2, 2026)",
+  "repository": "https://github.com/jurciukonis/StableWein",
+  "commit": "a540c6dbe099998f53d5af098e1c4a325c54ca84",
+  "notebook_Wolfram_Hash_SHA256": "acf62cd0c9c4de76f2cef5e54b127071c085cf50f2cf5dcecac1c2aa91e8d098",
+  "grid_parameters": [
+    17,
+    40,
+    0
+  ],
+  "grid_sizes": [
+    5148,
+    75113,
+    0
+  ],
+  "compilation_target": "WVM",
+  "unitarity_imposed": false,
+  "neural_networks_used": false,
+  "invocation": "Unmodified public low-level Weinberg routines extracted from pinned notebook Input cells; no front-end, usage cells or Branco routines evaluated. Modes 2 and 3 compose prerequisite necessary tests with short-circuiting.",
+  "scope": "Targeted eleven-fixture comparison, not a representative accuracy or performance benchmark. Strict positivity is the external convention.",
+  "results": [
+    {
+      "case": "A",
+      "mode0_sufficient": true,
+      "mode1": true,
+      "mode2": true,
+      "mode3": true
+    },
+    {
+      "case": "B",
+      "mode0_sufficient": false,
+      "mode1": true,
+      "mode2": true,
+      "mode3": true
+    },
+    {
+      "case": "Bminus",
+      "mode0_sufficient": false,
+      "mode1": true,
+      "mode2": false,
+      "mode3": false
+    },
+    {
+      "case": "C",
+      "mode0_sufficient": false,
+      "mode1": true,
+      "mode2": false,
+      "mode3": false
+    },
+    {
+      "case": "charged_flat",
+      "mode0_sufficient": false,
+      "mode1": true,
+      "mode2": false,
+      "mode3": false
+    },
+    {
+      "case": "charged_positive",
+      "mode0_sufficient": true,
+      "mode1": true,
+      "mode2": true,
+      "mode3": true
+    },
+    {
+      "case": "charged_negative",
+      "mode0_sufficient": false,
+      "mode1": true,
+      "mode2": false,
+      "mode3": false
+    },
+    {
+      "case": "weighted_flat",
+      "mode0_sufficient": false,
+      "mode1": true,
+      "mode2": false,
+      "mode3": false
+    },
+    {
+      "case": "real_projector_flat",
+      "mode0_sufficient": false,
+      "mode1": false,
+      "mode2": false,
+      "mode3": false
+    },
+    {
+      "case": "singular_flat",
+      "mode0_sufficient": false,
+      "mode1": false,
+      "mode2": false,
+      "mode3": false
+    },
+    {
+      "case": "all_zero",
+      "mode0_sufficient": false,
+      "mode1": false,
+      "mode2": false,
+      "mode3": false
+    }
+  ],
+  "mode4": [
+    {
+      "case": "Bminus",
+      "result": false,
+      "seconds": 0.595716
+    },
+    {
+      "case": "C",
+      "result": false,
+      "seconds": 0.444629
+    },
+    {
+      "case": "B",
+      "result": true,
+      "seconds": 9.724203
+    },
+    {
+      "case": "A",
+      "result": true,
+      "seconds": 10.142581
+    },
+    {
+      "case": "charged_positive",
+      "result": true,
+      "seconds": 9.743347
+    },
+    {
+      "case": "charged_negative",
+      "result": false,
+      "seconds": 0.141349
+    }
+  ],
+  "mode4_bounds": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "mode4_per_case_time_limit_seconds": 16,
+  "transcription_note": "Results transcribed from the actual connected Wolfram kernel response; exact rerun scripts accompany these records.",
+  "mode4_seed_batches": [
+    {
+      "seed": 20261022,
+      "cases": [
+        "Bminus",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "seed": 20261023,
+      "cases": [
+        "A",
+        "charged_positive",
+        "charged_negative"
+      ]
+    }
+  ],
+  "symbolic_potential_identity_checks": {
+    "wbPotFuncWein": true,
+    "wbPotFuncWein2": true,
+    "wbPotFuncWein3": true,
+    "gauge": "Phi_1=(0,1); other four complex field components arbitrary. Functions 2 and 3 hardcode the first neutral component to 1."
+  }
+}
